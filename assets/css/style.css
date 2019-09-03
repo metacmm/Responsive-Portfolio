@@ -154,7 +154,7 @@ footer{
 
 @media screen and (max-width: 980px){
     .head-content{
-        width: 95%;
+        width: 100%;
     }
 
     .content{
@@ -193,13 +193,13 @@ footer{
 
     .nav-menu{
         float: none;
-        
     }
     .content{
         position: absolute;
         top:20%;
         left:50%;
         transform: translate(-50%, -20%);
+        height: auto;
     }
     #content-portfolio{
         height: auto;
@@ -239,6 +239,10 @@ footer{
     .right{
         right:auto;
         left:0;
+    }
+    #img-portrait{
+        width: 90%;
+        height: 20%;
     }
 }
 
